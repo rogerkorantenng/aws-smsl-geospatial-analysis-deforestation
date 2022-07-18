@@ -78,10 +78,10 @@ with open("config.json") as json_data_file:
     cfg = json.load(json_data_file)
 
 # instance_id - Instance ID from from your Sentinel Hub account 
-config.instance_id = cfg["sentinelhub"]["d056a5c6-d42e-42aa-8bea-f105348fcde6"]
+config.instance_id = cfg["sentinelhub"][""]
 
-config.aws_access_key_id = cfg["aws"]["AKIAXX75NIOLGWKP2AVS"]
-config.aws_secret_access_key = cfg["aws"]["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"]
+config.aws_access_key_id = cfg["aws"][""]
+config.aws_secret_access_key = cfg["aws"][""]
 
 config.save()
 
