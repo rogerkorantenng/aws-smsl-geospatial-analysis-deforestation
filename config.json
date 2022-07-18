@@ -1,9 +1,9 @@
     {
     "aws": {
-        "access_key_id": "aws user access key",
-        "secret_access_key": "aws user secret key"
+        "access_key_id": "AKIAXX75NIOLGWKP2AVS",
+        "secret_access_key": "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"
     },
     "sentinelhub": {
-        "instance_id": "instance_id from sentinel hub configuration"
+        "instance_id": "d056a5c6-d42e-42aa-8bea-f105348fcde6"
     }
 }
