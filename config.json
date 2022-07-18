@@ -1,9 +1,9 @@
     {
     "aws": {
-        "access_key_id": "AKIAXX75NIOLGWKP2AVS",
-        "secret_access_key": "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"
+        "access_key_id": "",
+        "secret_access_key": ""
     },
     "sentinelhub": {
-        "instance_id": "d056a5c6-d42e-42aa-8bea-f105348fcde6"
+        "instance_id": ""
     }
 }
