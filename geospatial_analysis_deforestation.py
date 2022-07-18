@@ -15,16 +15,16 @@ This notebook covers the basics of getting started with Geospatial Data Analysis
 Creating a environment in Studio Lab is easy, just select the environment.yml file (by cloning this repository or upload it directly), right click the YAML file and select create environment. Once the environment is created, you should open this notbook with the newly created kernel. Optionally you can also uncomment the package installation section of the notebook to install these packages manually.
 """
 
-# %pip install pandas
-# %pip install numpy
-# %pip install geopandas
-# %pip install shapely
-# %pip install matplotlib
-# %pip install plotly_express
-# %pip install sentinelhub
-# %pip install rasterio
-# %pip install earthpyname: geo-data
-# %pip install utils
+%pip install pandas
+%pip install numpy
+%pip install geopandas
+%pip install shapely
+%pip install matplotlib
+%pip install plotly_express
+%pip install sentinelhub
+%pip install rasterio
+%pip install earthpyname: geo-data
+%pip install utils
 
 """##Import Packages
 
@@ -80,8 +80,8 @@ with open("config.json") as json_data_file:
 # instance_id - Instance ID from from your Sentinel Hub account 
 config.instance_id = cfg["sentinelhub"]["instance_id"]
 
-config.aws_access_key_id = cfg["aws"]["access_key_id"]
-config.aws_secret_access_key = cfg["aws"]["secret_access_key"]
+config.aws_access_key_id = cfg["aws"]["AKIAXX75NIOLGWKP2AVS"]
+config.aws_secret_access_key = cfg["aws"]["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"]
 
 config.save()
 
